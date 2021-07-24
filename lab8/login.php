@@ -10,10 +10,12 @@
 			<tr>
 				<td>User Name:</td>
 				<td><input type ="text" name="uname" ></td>
+				<td><?php echo $err_uname?></td>
 			</tr>
 			<tr>
 				<td>Password:</td>
 				<td><input type ="text" name="pass" ></td>
+				<td><?php echo $err_pass?></td>
 			</tr>
 			<tr>
 				<td></td>

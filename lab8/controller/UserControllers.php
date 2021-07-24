@@ -29,7 +29,7 @@
         }
         if(!$hasError){
             if(authenticateUser($uname,$pass)){
-                header("Location: addcategory.php");
+                header("Location: dashboard.php");
             }
             $err_db = "Username password invalid";
         }
